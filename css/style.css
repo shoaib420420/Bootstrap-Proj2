@@ -1,0 +1,359 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar starts here  */
+#top_nav {
+    background-color: rgba(248, 151, 6, 0.877);
+    font-size: 20px;
+    padding: 0 8%;
+    height: 14vh;
+}
+
+/* #top_nav{
+    position: fixed;
+    top: 0;
+} */
+#searchbox::placeholder {
+    color: white;
+}
+
+#searchbox {
+    background-color: rgb(253, 184, 79);
+    color: white;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: 5px 10px 11px 0px #00000021;
+    position: relative;
+    left: 5px;
+}
+
+#searchbtn {
+    border: 0px;
+    background-color: skyblue;
+}
+
+@media only screen and (max-width:991px) {
+    #searchform {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    #top_nav {
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #searchform {
+        margin-bottom: 30px;
+        margin-top: 20px;
+        position: relative;
+        left: 0;
+        /* Reset left positioning for better centering */
+        text-align: center;
+        /* Center the form content */
+    }
+
+    #searchbox {
+        left: 0;
+        width: 70%;
+        /* Make search box width flexible */
+    }
+}
+
+@media only screen and (max-width:500px) {
+    #top_nav {
+        padding: 0px;
+
+    }
+}
+
+/* Navbar starts here  */
+
+
+
+#banner {
+    background-color: #e97406dc;
+    padding-bottom: 20px;
+    /* height: 100vh; */
+}
+
+#textbanner h1 {
+    color: white;
+    font-size: 70px;
+    margin-top: 100px;
+
+}
+
+#textbanner p {
+    color: black;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+#banner-btn-1 {
+    color: white;
+    border: 2px solid #00bec9;
+}
+
+#banner-btn-2 {
+    color: black;
+    border: 2px solid #00bec9;
+    margin-left: 15px;
+}
+
+#dogimgbanner img {
+    margin-top: 30px;
+
+}
+
+@media only screen and (max-width:1300px) {
+    #textbanner h1 {
+        font-size: 50px;
+    }
+
+    #banner {
+        padding-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    #textbanner h1 {
+        font-size: 45px;
+        margin-top: 50px;
+    }
+
+    #dogimgbanner img {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #textbanner h1 {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+    #textbanner p {
+        font-size: 16px;
+    }
+
+    #banner-btn-1,
+    #banner-btn-2 {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+/* service-section  starts here*/
+#service-text {
+    padding-top: 10%;
+    padding-bottom: 5%;
+
+}
+
+#service-btn {
+    color: white;
+    background-color: #fcc302;
+    border: 2px solid #fcc302;
+
+}
+
+#service-img {
+    padding: 5%;
+}
+
+@media only screen and (max-width:768px) {
+    #service-img {
+        padding: 5%;
+    }
+
+    #service-text {
+        text-align: center;
+        padding-top: 5%;
+    }
+}
+
+/* service-section ends here */
+
+/* counter-section */
+#counter-section {
+    background-color: #fcc302;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+
+.counter-icon {
+    font-size: 70px;
+
+}
+
+@media only screen and (max-width:768px) {
+    .counter-icon {
+        font-size: 50px;
+    }
+
+    #counter-section h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .counter-icon {
+        font-size: 40px;
+    }
+}
+
+/* counter-section ends here  */
+
+/* Blog css */
+#blog {
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+
+#blog-title {
+    font-size: 50px;
+    font-weight: bolder;
+
+}
+
+#blog-p {
+    font-size: 20px;
+    margin-bottom: 70px;
+
+}
+
+.article-detail {
+    padding: 15px;
+    border: 1px solid rgb(185, 185, 185);
+    border-top: 0;
+}
+
+.article-date,
+.article-link {
+    color: #00bec9;
+}
+
+@media only screen and (max-width:768px) {
+    #blog-title {
+        font-size: 40px;
+    }
+
+    #blog-p {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+}
+
+/* Blog ends here */
+
+/* footer starts here */
+#footer {
+    background-color: #343434;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer-form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer-search-box {
+    background-color: rgba(248, 151, 6, 0.877);
+    color: white;
+    padding: 15px;
+    border: 0;
+    border-color: rgba(248, 151, 6, 0.877);
+    width: 100%;
+    max-width: 250px;
+    position: relative;
+    left: 6px;
+}
+
+#footer-search-submit {
+    background-color: #00bec9;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    padding: 15px 40px;
+
+}
+
+#text-dir {
+    text-align: end;
+}
+
+.social-icon {
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+@media only screen and (max-width: 1150px) {
+    #footer-search-box {
+        max-width: 200px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #text-dir {
+        text-align: left;
+        /* Reset alignment for smaller screens where it creates a new line */
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 786px) {
+    #footer-search-box {
+        width: 60%;
+        max-width: none;
+    }
+
+    #text-dir {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #footer-search-box {
+        width: 100%;
+        max-width: none;
+        left: 0;
+    }
+
+    #footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #footer h4 {
+        padding-top: 20px;
+    }
+
+    #footer-search-submit {
+        width: 100%;
+        margin-top: 10px;
+        padding: 10px;
+    }
+}
+
+/* footer ends here  */
