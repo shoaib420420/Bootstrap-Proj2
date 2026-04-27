@@ -1,4 +1,4 @@
-# Bootstrap-Proj2
+# Digital-Agency-Landing-Page
 
 ## Description
 **Bootstrap-Proj2** is a responsive landing page designed for a digital agency or portfolio. It showcases services, statistical achievements, latest news/blogs, and contact information. The project utilizes a modern and vibrant design with a focus on user experience and responsiveness across all devices. You can check project in video through this link: https://drive.google.com/file/d/1ZuacN6x3KWk-ObN7AZqA3yftyH-x2hzq/view?usp=sharing
